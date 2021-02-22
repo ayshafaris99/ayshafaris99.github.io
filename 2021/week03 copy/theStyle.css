@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(237, 218, 176);
+    font-family: Copperplate, Papyrus, fantasy;
+   }
+   h3 {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(165, 148, 128);
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+   }
+  
+    #thepic {
+        margin-left: auto;
+        margin-right: auto;
+        width: 719px;
+        height: 627px;
+        background-image: url('googlesearch.png');
+    }
+
+    #thepic:hover {
+        background-image: url('ad.jpg');
+    }
+   .image{
+       position: relative;
+       width:400px;
+   }
+   .theimage{
+       display:block;
+       height:100%;
+       width:100%;
+   }
+  .theimagetitle{
+      position: absolute;
+      top:50;
+      left:200;
+      opacity: 0;
+    }
+ 
+   .theimagetitle:hover{
+    opacity:1;
+   }
+   
