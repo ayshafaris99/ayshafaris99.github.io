@@ -1,31 +1,133 @@
 body {
-    background-color: rgb(214, 161, 63);
+    background-color: rgb(194, 183, 163);
 }
 
-#theEyes {
- text-align:center;
- background-color: pink;
+#flexBox {
+   display:flex;
+   justify-content:space-around;
+   align-items:center;
+   padding: 10px;
+   height:100px;
+   border:4px;
+    /* background-color: pink; */
+   }
+
+.title {
+left:10;
+right: 20;
+font-family: "DotGothic16",serif;
+font-size: 20px;
+background-color: lightblue;
+color: rgb(142, 124, 124);
+padding: 70px;
+text-align: center;
 }
 
-button {
-    padding: 5vw;
+ .flexthing{
+    background-image: url("eye.png");
+    background-size: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 10px;
+    border-radius:50%;
+    padding: 10vw;
+    margin: 5px;
     border: solid 3px;
 }
 
-button:hover {
-    background-color:  rgb(214, 161, 63);
+.flexthing:hover {
+    background-image: url("hobby.jpeg");
+}
+.flexthingeye{
+    background-image: url("eye.png");
+    background-size: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 10px;
+    border-radius:50%;
+    padding: 10vw;
+    margin: 5px;
+    border: solid 3px;
+}
+.flexthingeye:hover {
+    background-image: url("film.jpg");
+}
+
+#flexBoxtwo {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 30px;
+    height:100px;
+    border:4px;
+
+    }
+
+    .flexthingtwo{
+        background-image: url("nose.png");
+        background-size: 120px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        border-radius:50%;
+        padding: 10vw;
+        margin: 5px;
+    }
     
-}
+    .flexthingtwo:hover {
+        background-image: url("pie.jpg");
+    }
+    .flexthingthree{
+        background-image: url("ears.png");
+        background-size: 120px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        border-radius:50%;
+        padding: 10vw;
+        margin: 5px;
 
-#theMouth {
-   /* display:flex;*/
-   
-}
+    }
+    .flexthingthree:hover {
+        background-image: url("music.png");
+    }
+    .flexthingfour{
+        background-image: url("ears2.png");
+        background-size: 120px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        border-radius:50%;
+        padding: 10vw;
+        margin: 5px;
 
-#theMouth p {
-    justify-content: space-around;
-    background-color: white;
-    width: 50px;
-    margin-left: auto;
-    margin-right:auto;
-}
+    }
+    #flexBoxthree {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding: 40px;
+        height:100px;
+        border:4px;
+        }
+     .flexthingfive{
+            background-image: url("smile.png");
+            background-size: 300px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 200px;
+            border-radius:50%;
+            padding: 10vw;
+            margin: 5px;
+    
+        }
+        .flexthingfive:hover {
+            background-image: url("sushi.png");
+        }
+
