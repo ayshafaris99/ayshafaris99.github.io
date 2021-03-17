@@ -1,0 +1,67 @@
+.centerbox{
+    display:flex;
+    justify-content: center;
+}
+
+.titlebox{
+
+ background: url(../newpics/paper3.jpeg) no-repeat center center;
+  background-size: auto;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip:text;
+  background-clip:text; 
+  font-family: "Berkshire Swash",serif;
+  font-size:100px;
+  width: 900px;
+  height: 200px; 
+  padding:90px;
+  margin:0;
+  text-align:center;
+  -webkit-text-stroke: 2px rgba(62, 48, 17, 0.7);
+  text-shadow: 2px 2px 9px rgba(155, 129, 51, 0.5);
+}
+
+.headline2{
+    color:rgba(255, 255, 255, 0.7);
+    font-size:40px;
+    text-align:center;
+    font-family: "Alegreya", sans-serif;
+    margin: 50px;
+    width: 500px;
+    -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+}
+.narrationbox{
+  display: flex;
+  align-items: flex-end;
+  margin: 50px;
+  width: 500px;
+  padding: 100px;
+}
+.narration{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 40px;
+    text-align:center;
+    font-family: "Alegreya", sans-serif;
+    -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+#intropage{
+   background-image:url(../newpics/actualhotel.png); 
+   height:800px;
+}
+#partone{
+    background-image:url(../newpics/town.png); 
+    height:800px;
+ }
+ #parttwo{
+    background-image:url(../newpics/house1.png); 
+    height:800px;
+  }
+  #partthree{
+    background-image:url(../newpics/kitchen.png); 
+    height:800px;
+  }
