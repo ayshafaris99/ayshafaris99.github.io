@@ -4,8 +4,7 @@
 }
 
 .titlebox{
-
- background: url(../newpics/paper3.jpeg) no-repeat center center;
+ background: url(newpics/paper3.jpeg) no-repeat center center;
   background-size: auto;
   color: #fff;
   -webkit-text-fill-color: transparent;
@@ -50,18 +49,22 @@
 }
 
 #intropage{
-   background-image:url(../newpics/actualhotel.png); 
-   height:800px;
+   background-image:url(newpics/actualhotel.png); 
+   height:800px; 
 }
 #partone{
-    background-image:url(../newpics/town.png); 
+    background-image:url(newpics/townstreet.png); 
     height:800px;
  }
  #parttwo{
-    background-image:url(../newpics/house1.png); 
+    background-image:url(newpics/house1.png); 
     height:800px;
   }
   #partthree{
-    background-image:url(../newpics/kitchen.png); 
+    background-image:url(newpics/kitchen.png); 
+    height:800px;
+  }
+  #partfour{
+    background-image:url(newpics/kitchen.png); 
     height:800px;
   }
