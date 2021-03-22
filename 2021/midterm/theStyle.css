@@ -153,6 +153,30 @@ button{
     background-image:url(newpics/street2.png); 
     height:800px;
   }
+  #partten{
+    background-image:url(newpics/street2.png); 
+    height:800px;
+  }
+  #part11{
+    background-image:url(newpics/street2.png); 
+    height:800px;
+  }
+  #part12{
+    background-image:url(newpics/street2.png); 
+    height:800px;
+  }
+  #part13{
+    background-image:url(newpics/street2.png); 
+    height:800px;
+  }
+  #part14{
+    background-image:url(newpics/street2.png); 
+    height:800px;
+  }
+  #part15{
+    background-image:url(newpics/street2.png); 
+    height:800px;
+  }
   .imageone{
     float: left;
     width: 1000px;
@@ -219,6 +243,23 @@ button{
   height:100px;
   border:4px;
   margin: 30px;
+}
+#navbuttons{
+  position: fixed;
+  width:100px;
+}
+#movingbuttons{
+  float: right;
+  background-color:rgb(226, 214, 193);
+   color:rgba(7, 7, 7, 0.7);
+   font-size: 20px;
+   width: 100px;
+   margin: 0px;
+   text-align:center;
+   padding: 10px;
+   font-family: "Alegreya", sans-serif;
+   -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
+   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
 }
 
   
