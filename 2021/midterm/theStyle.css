@@ -1,6 +1,21 @@
-body {
-  overflow-x: hidden;
+
+body{
+  background-image:url(newpics/actualhotel.png); 
+  background-repeat: no-repeat;
 }
+#maincontainer{
+display:flex;
+justify-content: center;
+align-items:center;
+flex-direction:column;
+height:900;
+width:1000;
+}
+#pg1buttonscontainer{
+  display:flex;
+  justify-content:center;
+}
+/*
 .centerbox{
     display:grid;
     grid-gap: 10px;
@@ -43,9 +58,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-
-
-
+*/
 .titlebox{
  background: url(newpics/paper3.jpeg) no-repeat center center;
   background-size: auto;
@@ -56,11 +69,12 @@ body {
   background-clip:text; 
   font-family: "Berkshire Swash",serif;
   font-size:100px;
-  width: 900px;
-  height: 200px; 
-  padding:70px;
-  margin:20;
+  width: 1000px;
+  height: 250px; 
+  padding:100px;
+  margin:50;
   text-align:center;
+  align-self:center;
   -webkit-text-stroke: 2px rgba(62, 48, 17, 0.7);
   text-shadow: 2px 2px 9px rgba(155, 129, 51, 0.5);
 }
@@ -75,6 +89,7 @@ body {
     -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
 }
+/*
 .narrationbox{
   display: flex;
   align-items: center;
@@ -82,7 +97,7 @@ body {
   margin: 70px;
   width: 500px;
   padding: 20px;
-  /*border: 4px solid white;*/
+  border: 4px solid white;
 }
 #narration{
    float: right;
@@ -97,169 +112,42 @@ body {
     -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
 }
+*/
 button{
   float: right;
   background-color:rgba(177, 133, 58, 0.5);
    color:rgba(255, 255, 255, 0.7);
    font-size: 40px;
    width: 500px;
-   margin: 70px;
+   margin: 30px;
    text-align:center;
    padding: 20px;
    font-family: "Alegreya", sans-serif;
    -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
 }
+/*
 #intropage{
-   justify-content: center;
    background-image:url(newpics/actualhotel.png); 
    background-repeat: no-repeat;
-   height:1000px; 
+   height:900px; 
 }
-#partone{
-    background-image: url(newpics/townstreet.png);
-    background-repeat: no-repeat;
-    height:1000px;
+*/
+ #chapters{
+  background-image:url(newpics/rooftop.png);
+  background-repeat: no-repeat; 
+  height:900px;
  }
- #parttwo{
-    background-image:url(newpics/house1.png); 
-    height:900px;
-  }
-  #partthree{
-    background-image:url(newpics/kitchen.png); 
-    height:800px;
-  }
-  #partfour{
-    background-image:url(newpics/town.png); 
-    height:800px;
-  }
-  #partfive{
-    background-image:url(newpics/house1.png); 
-    height:800px;
-  }
-  #partsix{
-    background-image:url(newpics/rooftop.png); 
-    height:800px;
-  }
-  #partseven{
-    background-image:url(newpics/tv.png); 
-    height:800px;
-  }
-  #parteight{
-    background-image:url(newpics/street2.png); 
-    height:800px;
-  }
-  #partnine{
-    background-image:url(newpics/street2.png); 
-    height:800px;
-  }
-  #partten{
-    background-image:url(newpics/street2.png); 
-    height:800px;
-  }
-  #part11{
-    background-image:url(newpics/street2.png); 
-    height:800px;
-  }
-  #part12{
-    background-image:url(newpics/street2.png); 
-    height:800px;
-  }
-  #part13{
-    background-image:url(newpics/street2.png); 
-    height:800px;
-  }
-  #part14{
-    background-image:url(newpics/street2.png); 
-    height:800px;
-  }
-  #part15{
-    background-image:url(newpics/street2.png); 
-    height:800px;
-  }
-  .imageone{
-    float: left;
-    width: 1000px;
-    height: 1000px;
-    background-image: url(newpics/img1.PNG);
-    background-repeat: no-repeat;
-    background-size: 800px 900px;
-  }
-  .imageone:hover{
-    float: left;
-    width: 1000px;
-    height: 1000px;
-    background-image: url(newpics/img2.PNG);
-    background-repeat: no-repeat;
-    background-size: 800px 900px;
-  }
   
-  .imagetwo{
-    width: 900px;
-    height: 1000px;
-    background-image: url(newpics/img3.PNG);
-    background-repeat: no-repeat;
-    background-size: 500px 500px;
-  }
-  .imagetwo:hover{
-    width: 900px;
-    height: 1000px;
-    background-image: url(newpics/img4.PNG);
-    background-repeat: no-repeat;
-    background-size: 500px 500px;
-  }
-
-  #narration2{
-    display: block;
-     color:rgba(255, 255, 255, 0.7);
-     font-size: 40px;
-     width: 500px;
-     margin: 70px;
-     text-align:center;
-     padding: 20px;
-     font-family: "Alegreya", sans-serif;
-     -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
-     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
- }
-
- .float-container {
-  padding: 20px;
-  width:900px;
-}
-
-.float-child {
-  width: 50%;
-  float: left;
-  padding: 20px;
-}  
-
 .buttonscontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   /*width: 500px;*/
   padding: 30px;
   height:100px;
   border:4px;
-  margin: 30px;
-}
-#navbuttons{
-  position: fixed;
-  width:100px;
-}
-#movingbuttons{
-  float: right;
-  background-color:rgb(226, 214, 193);
-   color:rgba(7, 7, 7, 0.7);
-   font-size: 20px;
-   width: 100px;
-   margin: 0px;
-   text-align:center;
-   padding: 10px;
-   font-family: "Alegreya", sans-serif;
-   -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
-   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+  margin: 10px;
 }
 
   

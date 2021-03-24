@@ -1,0 +1,28 @@
+
+ body{
+    background-image:url(newpics/rooftop.png);
+    background-repeat: no-repeat; 
+ }
+  .buttonscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: 500px;*/
+    padding: 30px;
+    height:100px;
+    border:4px;
+    margin: 10px;
+  }
+  button{
+    float: right;
+    background-color:rgba(177, 133, 58, 0.5);
+     color:rgba(255, 255, 255, 0.7);
+     font-size: 40px;
+     width: 500px;
+     margin: 30px;
+     text-align:center;
+     padding: 20px;
+     font-family: "Alegreya", sans-serif;
+     -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
+     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+  }
