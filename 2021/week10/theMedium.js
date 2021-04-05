@@ -1,4 +1,4 @@
-let goal = document.getElementById("theCause"); 
+let goal = document.getElementById("thecause"); 
 let box1 = document.getElementById("animate1"); 
 let box2 = document.getElementById("animate2");
 let theButton = document.getElementById("button");
