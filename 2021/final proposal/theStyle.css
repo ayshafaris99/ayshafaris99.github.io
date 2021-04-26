@@ -1,0 +1,126 @@
+body{
+    background-image:url(bck.jpg); 
+  }
+  #maincontainer{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  height:500;
+  width:1000;
+  }
+    .titlebox{
+         font-family: "Original Surfer",serif;
+         font-size:100px;
+         width: 1000px;
+         height: 100px; 
+         padding:50px;
+         margin:50;
+         text-align:center;
+         align-self:center;
+         color: wheat;
+         -webkit-text-stroke: 4px rgba(62, 48, 17, 0.7);
+         text-shadow: 2px 2px 9px rgba(155, 129, 51, 0.5);
+       }
+       .titlebox2{
+         font-family: "Original Surfer",serif;
+         font-size:70px;
+         width: 1000px;
+         height: 100px; 
+         padding:50px;
+         margin:50;
+         text-align:center;
+         align-self:center;
+         color: wheat;
+         -webkit-text-stroke: 2px rgba(62, 48, 17, 0.7);
+         text-shadow: 2px 2px 9px rgba(155, 129, 51, 0.5);
+       }
+       
+       
+       #headline2{
+           color:rgba(255, 255, 255, 0.719);
+           font-size:40px;
+           text-align:center;
+           font-family: "Alegreya", sans-serif;
+           margin: 10px;
+           width: 500px;
+           -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
+           text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+       }
+       
+       button{
+         float: right;
+         background-color:rgba(222, 245, 212, 0.5);
+          color:rgba(255, 255, 255, 0.7);
+          font-size: 40px;
+          width: 500px;
+          margin: 30px;
+          text-align:center;
+          padding: 20px;
+          font-family: "Original Surfer",serif;
+          -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
+          text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+       }
+       .buttonscontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*width: 500px;*/
+        padding: 30px;
+        height:100px;
+        border:4px;
+        margin: 10px;
+      }
+
+      .textcontainer {
+        text-align: center;
+        /*width: 500px;*/
+        padding: 70px;
+        width:1200px;
+        height:800px;
+        border:10px;
+        border-radius: 10px;
+        border-color: white;
+        margin: 10px;
+        font-size: 30px;
+        font-family: 'Playfair Display';
+        background-color: rgb(208, 240, 229,50%);
+      }
+      img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 900px;
+      }
+      .navbuttons{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+      .navstyle{
+        float: right;
+         background-color:rgba(222, 245, 212, 0.5);
+          color:rgba(255, 255, 255, 0.7);
+          font-size: 40px;
+          width: 300px;
+          margin: 30px;
+          text-align:center;
+          padding: 20px;
+          font-family: "Original Surfer",serif;
+          -webkit-text-stroke: 1px rgba(31, 21, 7, 1);
+          text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+    }
+    .textcontainer2 {
+        text-align: center;
+        /*width: 500px;*/
+        padding: 70px;
+        width:1200px;
+        height:300px;
+        border:10px;
+        border-radius: 10px;
+        border-color: white;
+        margin: 10px;
+        font-size: 30px;
+        font-family: 'Playfair Display';
+        background-color: rgb(208, 240, 229,50%);
+      }
